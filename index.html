@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Horizontes Turísticos</title>
+</head>
+
+<body>
+    <div class="site">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./logo (2).png" alt="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Alugueis</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pacotes
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Em faímlia</a></li>
+                          <li><a class="dropdown-item" href="#">Geriátrico</a></li>
+                          <li><a class="dropdown-item" href="#">Radicais</a></li>
+                          <li><a class="dropdown-item" href="#">Relaxantes</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Outros pacotes</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Passagens</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Hospedagens</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <div class="content">
+            <div id="content-corpo">
+                <div class="pre-grid">
+                    <div class="pre-grid2">
+                        <div class="display-grid">
+                            <div class="grid-title1">
+                           <span> Top destinos mais buscados hoje no Brasil</span>
+                            </div>
+                            <div class="grid-cards">
+                                <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/Fortaleza.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fortaleza</h5>
+        <p id="p-boost">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./img/maceio.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Maceio</h5>
+        <p id="p-boost">Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./img/porto seguro.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Porto Seguro</h5>
+        <p id="p-boost">Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>         
+                            </div>
+                            <div class="grid-title2"><span>Ofertas que não podem esperar </span>
+
+                            </div>
+                            <div class="grid-offer">
+                                <div class="img-offer"><img id="offer-img" src="./img/images.jpg" alt="oferta" ></div>
+                                <div class="bellow-offer">
+                                    <div class="txt-offer">Se você ainda não definiu o seu destino, talvez te interesse ver a nossa seção de ofertas.</div>
+                                    <button id="offer"><p>Ver ofertas</p></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="card-grid">
+                        <div class="card">
+                            <img class="img-card" src="./img/Bahia.jpg">
+                            <p class="title-card">Pousada Tropical</p>
+                            <p class="text-card">Condomínio fechado na Bahia, com área de mais de 6.300 metros quadrados, cercado por altos muros que proporcionam segurança e privacidade. </p>
+                        </div>
+                        <div class="card">
+                            <img class="img-card" src="./img/Paraisos-tropicais3.jpg">
+                            <p class="title-card">Ilhas Virgens Britânicas</p>
+                            <p class="text-card">Localizada ao sul de Tortola,ilha privada com cenário único.  Rotineiramente nomeada como um dos melhores lugares para ficar no mundo,Ilhas Virgens Britânicas tem apenas um hotel, o Peter Island Resort.</p>
+                        </div>
+                        <div class="card">
+                            <img class="img-card" src="./img/neves.jpg">
+                            <p class="title-card">Icehotel </p>
+                            <p class="text-card">Hotel na Suécia, situado na aldeia Jukkasjarvi, o local está a 200 km do norte do Círculo Polar Ártico. Sua estrutura é construída a cada ano por artistas e escultores que criam um projeto diferente para todos os quartos.</p>
+                        </div>
+                        <div class="card">
+                            <img class="img-card" src="./img/oases.jpg">
+                            <p class="title-card">Huacachina</p>
+                            <p class="text-card">No peru, se destaca por seu encanto natural e sua beleza paisagística. A Lagoa de Huacachina, situada a apenas 20 minutos da cidade de Ica, é um lugar ideal para desconectar-se da rotina</p>
+                        </div>
+                        <div class="card">
+                            <img class="img-card" src="./img/cacho.avif">
+                            <p class="title-card">Cachoeira de Santa Bárbara</p>
+                            <p class="text-card">Com águas azuis de tonalidade esverdeada, a beleza da Cachoeira de Santa Bárbara salta aos olhos de quem decide desbravar o cerrado brasileiro</p>
+                        </div>
+                        <div class="card">
+                            <img class="img-card" src="./img/rosewood-suite-terrace.jpg">
+                            <p class="title-card">Rosewood Hotel Georgia</p>
+                            <p class="text-card">O Rosewood Hotel Georgia combina a grandeza dos loucos anos 20 com um design contemporâneo no coração de Vancouver.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="conteudofooter">
+                <div id="contatofooter">
+                    <h1>Horizontes turísticos</h1>
+                    <p>Mídias sociais</p>
+                    <div id="redes">
+                        <a href="https://pt-br.facebook.com/" class="linkfooter" id="facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/instagram/" class="linkfooter" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.whatsapp.com/?lang=pt_br" class="linkfooter" id="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                        <a href="https://twitter.com/" class="linkfooter" id="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <ul class="listafooter">
+                    <li>
+                        <h3>Serviços</h3>
+                    </li>
+                    <li>
+                        <a href="#">Agenda</a>
+                    </li>
+                    <li>
+                        <a href="#">Edição digital</a>
+                    </li>
+                    <li>
+                        <a href="#">Newsletter</a>
+                    </li>
+                </ul>
+
+                <ul class="listafooter">
+                    <li>
+                        <h3>A empresa</h3>
+                    </li>
+                    <li>
+                        <a href="#">Quem somos</a>
+                    </li>
+                    <li>
+                        <a href="#">publiciade</a>
+                    </li>
+                    <li>
+                        <a href="#">política de privacidade</a>
+                    </li>
+                </ul>
+
+                <div id="subsfooter">
+                    <h3>Cadastre-se</h3>
+                    <p>
+                        Coloque seu email para entrar em contato em caso de erros
+                    </p>
+                    <div id="grupo">
+                        <input type="email" id="email">
+                        <buttom>
+                            <a
+                                href="https://pt.stackoverflow.com/questions/278978/como-centrar-texto-de-botao-verticalmente"><i class="fa-solid fa-arrow-right-long"></i></a>
+                        </buttom>
+                    </div>
+                </div>
+            </div>
+            <div id="copyrights">
+                &#169 Guilherme Azeredo</div>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
